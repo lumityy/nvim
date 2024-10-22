@@ -4,7 +4,7 @@
 
 LazyVim.terminal.setup("pwsh")
 vim.diagnostic.config({
-  update_in_insert = true,
+    update_in_insert = true,
 })
 
 vim.g.lazyvim_python_lsp = "basedpyright"

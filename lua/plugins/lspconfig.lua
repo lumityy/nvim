@@ -1,16 +1,18 @@
 return {
-  {
-    "neovim/nvim-lspconfig",
-    opts = {
-      servers = {
-        clangd = {
-          mason = false,
+    {
+        "neovim/nvim-lspconfig",
+        opts = {
+            servers = {
+                clangd = {
+                    mason = false,
+                },
+                basedpyright = {
+                    mason = false,
+                },
+                ruff = {
+                    mason = false,
+                },
+            },
         },
-        ruff = {
-          mason = false,
-        },
-      },
     },
-  },
 }
-
